@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Background Changer",
+    "version": "1.0.0",
+    "description": "Does stuff with the background.",
+    "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+    "action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["scripting", "tabs", "activeTab"]
+  }
+  
