@@ -26,7 +26,7 @@ rotateEl.addEventListener("input", e => {
     if (currTab) {
       chrome.scripting.insertCSS(
         {
-          css: `body { transform: rotate(${degree}deg) !important; }`,
+          css: `body { transform: rotate(${degree}deg)  }`,
           target: { tabId: currTab.id }
         },
         function() {
@@ -46,7 +46,7 @@ rotate3DEl.addEventListener("input", e => {
     if (currTab) {
       chrome.scripting.insertCSS(
         {
-          css: `body { transform: rotate3d(1, 1, 1,${degree}deg) !important; }`,
+          css: `body { transform: rotate3d(1, 1, 1,${degree}deg)  }`,
           target: { tabId: currTab.id }
         },
         function() {
